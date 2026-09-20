@@ -1,0 +1,160 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 7 0 R /Resources << /Font << /F1 3 0 R /F2 5 0 R >> >> >>
+endobj
+7 0 obj
+<< /Length 5542 >>
+stream
+q 0.97 0.98 0.96 rg 0 0 595 842 re f Q
+q 0.10 0.29 0.22 rg 0 760 595 82 re f Q
+q 0.87 0.64 0.18 rg 0 754 595 6 re f Q
+q 0.95 0.98 0.94 rg BT /F2 23 Tf 44 801 Td (AgroSearch) Tj ET Q
+q 0.95 0.98 0.94 rg BT /F1 10 Tf 44 780 Td (Relatorio tecnico | Recuperacao de Informacao e PLN) Tj ET Q
+BT /F1 8 Tf 44 721 Td (AgroSearch - Motor de Busca Inteligente) Tj ET
+q 0.80 0.84 0.80 rg 44 712 500 1 re f Q
+BT /F1 8 Tf 44 705 Td (Desafio Integrador - Recuperação de Informação / PLN) Tj ET
+q 0.80 0.84 0.80 rg 44 696 500 1 re f Q
+q 0.82 0.92 0.86 rg 36 681 515 20 re f Q
+BT /F2 11 Tf 50 687 Td (1. Base de documentos) Tj ET
+BT /F1 8 Tf 44 671 Td (Doc1: A soja requer irrigação constante durante o período de floração para garantir a) Tj ET
+BT /F1 8 Tf 44 660 Td (produtividade.) Tj ET
+BT /F1 8 Tf 44 649 Td (Doc2: O controle biológico de lagartas na soja pode ser feito com a vespa Trichogramma.) Tj ET
+BT /F1 8 Tf 44 638 Td (Doc3: A adubação verde com leguminosas melhora o nitrogênio no solo para o milho.) Tj ET
+BT /F1 8 Tf 44 627 Td (Doc4: Lagartas desfolhadoras causam grande prejuízo na cultura da soja e do algodão.) Tj ET
+BT /F1 8 Tf 44 616 Td (Doc5: A irrigação por gotejamento economiza água e é ideal para o cultivo orgânico.) Tj ET
+q 0.80 0.84 0.80 rg 44 607 500 1 re f Q
+q 0.82 0.92 0.86 rg 36 592 515 20 re f Q
+BT /F2 11 Tf 50 598 Td (2. Pipeline de pré-processamento) Tj ET
+BT /F1 8 Tf 44 582 Td (Doc1: Tokens=['A', 'soja', 'requer', 'irrigação', 'constante', 'durante', 'o', 'período', 'de',) Tj ET
+BT /F1 8 Tf 44 571 Td ('floração', 'para', 'garantir', 'a', 'produtividade']) Tj ET
+BT /F1 8 Tf 44 560 Td (Doc1: Normalizados=['a', 'soja', 'requer', 'irrigacao', 'constante', 'durante', 'o', 'periodo',) Tj ET
+BT /F1 8 Tf 44 549 Td ('de', 'floracao', 'para', 'garantir', 'a', 'produtividade']) Tj ET
+BT /F1 8 Tf 44 538 Td (Doc1: Sem stopwords=['soja', 'requer', 'irrigacao', 'periodo', 'floracao', 'garantir',) Tj ET
+BT /F1 8 Tf 44 527 Td ('produtividade']) Tj ET
+BT /F1 8 Tf 44 516 Td (Doc1: Stemmed=['soja', 'requer', 'irrigacao', 'periodo', 'floracao', 'garantir',) Tj ET
+BT /F1 8 Tf 44 505 Td ('produtividade']) Tj ET
+BT /F1 8 Tf 44 494 Td (Doc2: Tokens=['O', 'controle', 'biológico', 'de', 'lagartas', 'na', 'soja', 'pode', 'ser',) Tj ET
+BT /F1 8 Tf 44 483 Td ('feito', 'com', 'a', 'vespa', 'Trichogramma']) Tj ET
+BT /F1 8 Tf 44 472 Td (Doc2: Normalizados=['o', 'controle', 'biologico', 'de', 'lagartas', 'na', 'soja', 'pode', 'ser',) Tj ET
+BT /F1 8 Tf 44 461 Td ('feito', 'com', 'a', 'vespa', 'trichogramma']) Tj ET
+BT /F1 8 Tf 44 450 Td (Doc2: Sem stopwords=['controle', 'biologico', 'lagartas', 'soja', 'pode', 'feito', 'vespa',) Tj ET
+BT /F1 8 Tf 44 439 Td ('trichogramma']) Tj ET
+BT /F1 8 Tf 44 428 Td (Doc2: Stemmed=['controle', 'biologico', 'lagarta', 'soja', 'pode', 'feito', 'vesp',) Tj ET
+BT /F1 8 Tf 44 417 Td ('trichogramm']) Tj ET
+BT /F1 8 Tf 44 406 Td (Doc3: Tokens=['A', 'adubação', 'verde', 'com', 'leguminosas', 'melhora', 'o', 'nitrogênio',) Tj ET
+BT /F1 8 Tf 44 395 Td ('no', 'solo', 'para', 'o', 'milho']) Tj ET
+BT /F1 8 Tf 44 384 Td (Doc3: Normalizados=['a', 'adubacao', 'verde', 'com', 'leguminosas', 'melhora', 'o',) Tj ET
+BT /F1 8 Tf 44 373 Td ('nitrogenio', 'no', 'solo', 'para', 'o', 'milho']) Tj ET
+BT /F1 8 Tf 44 362 Td (Doc3: Sem stopwords=['adubacao', 'verde', 'leguminosas', 'nitrogenio', 'solo', 'milho']) Tj ET
+BT /F1 8 Tf 44 351 Td (Doc3: Stemmed=['adubacao', 'verde', 'leguminosa', 'nitrogenio', 'solo', 'milho']) Tj ET
+BT /F1 8 Tf 44 340 Td (Doc4: Tokens=['Lagartas', 'desfolhadoras', 'causam', 'grande', 'prejuízo', 'na', 'cultura',) Tj ET
+BT /F1 8 Tf 44 329 Td ('da', 'soja', 'e', 'do', 'algodão']) Tj ET
+BT /F1 8 Tf 44 318 Td (Doc4: Normalizados=['lagartas', 'desfolhadoras', 'causam', 'grande', 'prejuizo', 'na',) Tj ET
+BT /F1 8 Tf 44 307 Td ('cultura', 'da', 'soja', 'e', 'do', 'algodao']) Tj ET
+BT /F1 8 Tf 44 296 Td (Doc4: Sem stopwords=['lagartas', 'desfolhadoras', 'causam', 'prejuizo', 'cultura', 'soja',) Tj ET
+BT /F1 8 Tf 44 285 Td ('algodao']) Tj ET
+BT /F1 8 Tf 44 274 Td (Doc4: Stemmed=['lagarta', 'desfolhado', 'causam', 'prejuizo', 'cultur', 'soja', 'algodao']) Tj ET
+BT /F1 8 Tf 44 263 Td (Doc5: Tokens=['A', 'irrigação', 'por', 'gotejamento', 'economiza', 'água', 'e', 'é', 'ideal',) Tj ET
+BT /F1 8 Tf 44 252 Td ('para', 'o', 'cultivo', 'orgânico']) Tj ET
+BT /F1 8 Tf 44 241 Td (Doc5: Normalizados=['a', 'irrigacao', 'por', 'gotejamento', 'economiza', 'agua', 'e', 'e',) Tj ET
+BT /F1 8 Tf 44 230 Td ('ideal', 'para', 'o', 'cultivo', 'organico']) Tj ET
+BT /F1 8 Tf 44 219 Td (Doc5: Sem stopwords=['irrigacao', 'gotejamento', 'economiza', 'agua', 'cultivo', 'organico']) Tj ET
+BT /F1 8 Tf 44 208 Td (Doc5: Stemmed=['irrigacao', 'gotejam', 'economiz', 'agua', 'cultivo', 'organico']) Tj ET
+q 0.80 0.84 0.80 rg 44 199 500 1 re f Q
+q 0.82 0.92 0.86 rg 36 184 515 20 re f Q
+BT /F2 11 Tf 50 190 Td (3. Índice invertido) Tj ET
+BT /F1 8 Tf 44 174 Td (floracao: ['Doc1']) Tj ET
+BT /F1 8 Tf 44 163 Td (garantir: ['Doc1']) Tj ET
+BT /F1 8 Tf 44 152 Td (irrigacao: ['Doc1', 'Doc5']) Tj ET
+BT /F1 8 Tf 44 141 Td (periodo: ['Doc1']) Tj ET
+BT /F1 8 Tf 44 130 Td (produtividade: ['Doc1']) Tj ET
+BT /F1 8 Tf 44 119 Td (requer: ['Doc1']) Tj ET
+BT /F1 8 Tf 44 108 Td (soja: ['Doc1', 'Doc2', 'Doc4']) Tj ET
+BT /F1 8 Tf 44 97 Td (biologico: ['Doc2']) Tj ET
+BT /F1 8 Tf 44 86 Td (controle: ['Doc2']) Tj ET
+BT /F1 8 Tf 44 75 Td (feito: ['Doc2']) Tj ET
+BT /F1 8 Tf 44 64 Td (lagarta: ['Doc2', 'Doc4']) Tj ET
+BT /F1 8 Tf 44  30 Td (AgroSearch | Entrega integradora) Tj ET
+BT /F1 8 Tf 510 30 Td (1/2) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 9 0 R /Resources << /Font << /F1 3 0 R /F2 5 0 R >> >> >>
+endobj
+9 0 obj
+<< /Length 2076 >>
+stream
+q 0.97 0.98 0.96 rg 0 0 595 842 re f Q
+q 0.10 0.29 0.22 rg 0 760 595 82 re f Q
+q 0.87 0.64 0.18 rg 0 754 595 6 re f Q
+q 0.95 0.98 0.94 rg BT /F2 23 Tf 44 801 Td (AgroSearch) Tj ET Q
+q 0.95 0.98 0.94 rg BT /F1 10 Tf 44 780 Td (Relatorio tecnico | Recuperacao de Informacao e PLN) Tj ET Q
+BT /F1 8 Tf 44 721 Td (pode: ['Doc2']) Tj ET
+BT /F1 8 Tf 44 710 Td (trichogramm: ['Doc2']) Tj ET
+BT /F1 8 Tf 44 699 Td (vesp: ['Doc2']) Tj ET
+BT /F1 8 Tf 44 688 Td (adubacao: ['Doc3']) Tj ET
+BT /F1 8 Tf 44 677 Td (leguminosa: ['Doc3']) Tj ET
+BT /F1 8 Tf 44 666 Td (milho: ['Doc3']) Tj ET
+BT /F1 8 Tf 44 655 Td (nitrogenio: ['Doc3']) Tj ET
+BT /F1 8 Tf 44 644 Td (solo: ['Doc3']) Tj ET
+BT /F1 8 Tf 44 633 Td (verde: ['Doc3']) Tj ET
+BT /F1 8 Tf 44 622 Td (algodao: ['Doc4']) Tj ET
+BT /F1 8 Tf 44 611 Td (causam: ['Doc4']) Tj ET
+BT /F1 8 Tf 44 600 Td (cultur: ['Doc4']) Tj ET
+BT /F1 8 Tf 44 589 Td (desfolhado: ['Doc4']) Tj ET
+BT /F1 8 Tf 44 578 Td (prejuizo: ['Doc4']) Tj ET
+BT /F1 8 Tf 44 567 Td (agua: ['Doc5']) Tj ET
+BT /F1 8 Tf 44 556 Td (cultivo: ['Doc5']) Tj ET
+BT /F1 8 Tf 44 545 Td (economiz: ['Doc5']) Tj ET
+BT /F1 8 Tf 44 534 Td (gotejam: ['Doc5']) Tj ET
+BT /F1 8 Tf 44 523 Td (organico: ['Doc5']) Tj ET
+q 0.80 0.84 0.80 rg 44 514 500 1 re f Q
+q 0.82 0.92 0.86 rg 36 499 515 20 re f Q
+BT /F2 11 Tf 50 505 Td (4. Consulta e ranqueamento TF-IDF) Tj ET
+BT /F1 8 Tf 44 489 Td (Query: soja) Tj ET
+BT /F1 8 Tf 44 478 Td (Doc1: Score=0.072975) Tj ET
+BT /F1 8 Tf 44 467 Td (Doc4: Score=0.072975) Tj ET
+BT /F1 8 Tf 44 456 Td (Doc2: Score=0.063853) Tj ET
+BT /F1 8 Tf 44 445 Td (Doc3: Score=0.0) Tj ET
+BT /F1 8 Tf 44 434 Td (Doc5: Score=0.0) Tj ET
+q 0.80 0.84 0.80 rg 44 425 500 1 re f Q
+q 0.82 0.92 0.86 rg 36 410 515 20 re f Q
+BT /F2 11 Tf 50 416 Td (5. Conclusão) Tj ET
+BT /F1 8 Tf 44 400 Td (O índice invertido acelera a busca por termo e o TF-IDF ordena os documentos) Tj ET
+BT /F1 8 Tf 44 389 Td (por relevância, permitindo ao técnico localizar rapidamente as informações mais úteis.) Tj ET
+BT /F1 8 Tf 44  30 Td (AgroSearch | Entrega integradora) Tj ET
+BT /F1 8 Tf 510 30 Td (2/2) Tj ET
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000218 00000 n 
+0000000234 00000 n 
+0000000336 00000 n 
+0000000472 00000 n 
+0000006066 00000 n 
+0000006202 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+8330
+%%EOF
